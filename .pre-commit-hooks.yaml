@@ -1,0 +1,5 @@
+-   id: prepare-change-id
+    name: (prepare-change-id) Commit message Change-Id preparation
+    description: Add Gerrit Change-Id to git commit
+    entry: prepare-gerrit-change-id
+    language: python
