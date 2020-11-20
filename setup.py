@@ -9,7 +9,9 @@ setuptools.setup(
 		"develop": [
 			"mypy",
 			"nose2",
-			"pylint"
+			"pylint",
+			"twine",
+			"wheel",
 		]
 	},
 )
