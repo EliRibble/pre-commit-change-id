@@ -1,0 +1,28 @@
+A commit with verbose text from git diff at the bottom.
+
+We should get a Change-Id just below.
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is based on 'origin/main', but the upstream is gone.
+#   (use "git branch --unset-upstream" to fixup)
+#
+# Changes to be committed:
+#   new file:   test/no-changeid.txt
+#
+# Untracked files:
+#   .pre-commit-hooks.yaml
+#
+# ------------------------ >8 ------------------------
+# Do not modify or remove the line above.
+# Everything below it will be ignored.
+diff --git a/test/no-changeid.txt b/test/no-changeid.txt
+new file mode 100644
+index 0000000..6c679dd
+--- /dev/null
++++ b/test/no-changeid.txt
+@@ -0,0 +1,3 @@
++This is a git commit.
++
++It has no change ID.
